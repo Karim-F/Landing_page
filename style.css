@@ -35,11 +35,27 @@ li {
 
 }
 
+.carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .Inspire {
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
 
+}
+
+blockquote {
+    display: block;
+    margin: 5em 350px;
+}
+
+strong {
+    display: block;
+    text-align: right;
 }
 
 .calltoaction {
