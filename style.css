@@ -25,7 +25,7 @@ li {
 }
 
 .Presentation {
-    background-color: #371f20;
+    background-color: #1F2937;
     color: white;
     padding: 40px 150px;
     display: flex;
@@ -35,6 +35,11 @@ li {
 .prez {
     width: 350px;
     height: 150px;
+    margin: 0;
+}
+
+.prez h1, p {
+    margin: 5px;
 }
 
 .prez button {
