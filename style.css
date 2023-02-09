@@ -32,7 +32,7 @@ li {
 }
 
 .prez button {
-    border-radius: 10%;
+    border-radius: 5px;
     color: white;
     background-color: #3882f6;
     width: 100px;
@@ -90,11 +90,12 @@ strong {
     width: 700px;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 60px;
+    border-radius: 10px;
 }
 
 .card button {
-    border-radius: 20%;
+    border-radius: 10px;
     border-color: white;
     color: white;
     background-color: #3882f6;
