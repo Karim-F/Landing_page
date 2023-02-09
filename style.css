@@ -3,16 +3,32 @@ body {
     flex-direction: column;
 }
 
+ul {
+    list-style: none;
+    display: flex;
+  }
+
+li {
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+    flex-wrap: nowrap;
+  }
+
 .header {
     background-color: #1F2937;
     color: white;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .Presentation {
     background-color: #1F2937;
     color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .Informations {
