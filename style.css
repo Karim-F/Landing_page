@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -7,4 +8,34 @@ body {
     color: white;
     display: flex;
     flex-direction: row;
+}
+
+.Presentation {
+    background-color: #1F2937;
+    color: white;
+}
+
+.Informations {
+
+}
+
+.Inspire {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+
+}
+
+.calltoaction {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
