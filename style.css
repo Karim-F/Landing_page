@@ -31,6 +31,13 @@ li {
     justify-content: space-between;
 }
 
+.prez button {
+    border-radius: 10%;
+    color: white;
+    background-color: #3882f6;
+    width: 100px;
+}
+
 .Informations {
     display: flex;
     flex-direction: column;
@@ -84,6 +91,15 @@ strong {
     display: flex;
     justify-content: center;
     padding: 20px;
+}
+
+.card button {
+    border-radius: 20%;
+    border-color: white;
+    color: white;
+    background-color: #3882f6;
+    width: 100px;
+    height: 30px;
 }
 
 .footer {
