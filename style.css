@@ -89,7 +89,8 @@ strong {
     color: white;
     width: 700px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     padding: 60px;
     border-radius: 10px;
 }
@@ -101,6 +102,22 @@ strong {
     background-color: #3882f6;
     width: 100px;
     height: 30px;
+}
+
+.textaction {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0%;
+}
+
+.textaction p {
+    padding: 0%;
+    margin: 0%;
+}
+
+.textaction h2 {
+    padding: 0%;
+    margin: 0%;
 }
 
 .footer {
