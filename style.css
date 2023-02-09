@@ -27,10 +27,18 @@ body {
 }
 
 .calltoaction {
-    background-color: #3882f6;
-    color: white;
     display: flex;
     justify-content: center;
+    padding: 50px;
+}
+
+.card {
+    background-color: #3882f6;
+    color: white;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 .footer {
